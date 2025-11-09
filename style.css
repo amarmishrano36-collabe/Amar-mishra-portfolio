@@ -415,6 +415,24 @@ h2 {
     width: 450px;
     border-radius: 25px;
 }
+.Dino {
+    height: 400px;
+    width: 450px;
+    border-radius: 25px;
+}
+
+.Dino:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+    background-color: #f9fafb;
+}
+
+.Dino img {
+    height: 200px;
+    width: 450px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 
 .calculator:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
