@@ -598,6 +598,26 @@ h2 {
     border-radius: 100%;
 }
 
+.Qualification{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exper{
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.edu{
+    width: 100%;
+    margin-left: 50px;
+}
+
+th{
+    margin-right: 100px;
+}
+
 /* contact us page */
 .location {
     width: 80%;
