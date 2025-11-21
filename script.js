@@ -8,4 +8,3 @@ ScrollReveal({
     duration: 4000,
     delay: 400,
 });
-
