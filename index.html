@@ -20,14 +20,33 @@
 
 <body>
     <nav>
-        <a class="logo" href="index.html">Portfolio</a>
-        <div class="anker">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="project.html">projects</a>
-            <a href="contact.html">contact</a>
-        </div>
-    </nav>
+    <a class="logo" href="index.html">Portfolio</a>
+    <div class="anker" id="navbarLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
+
+<!-- Mobile Sidebar -->
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+        <span class="close-btn" id="closeSidebar">×</span>
+    </div>
+    <div class="sidebar-links">
+        <a href="index.html" onclick="closeSidebar()">Home</a>
+        <a href="about.html" onclick="closeSidebar()">About</a>
+        <a href="project.html" onclick="closeSidebar()">Projects</a>
+        <a href="contact.html" onclick="closeSidebar()">Contact</a>
+    </div>
+</div>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
     <main>
         <div class="main">
             <h1>Hi, I'm <span>Amar Mishra</span></h1>
